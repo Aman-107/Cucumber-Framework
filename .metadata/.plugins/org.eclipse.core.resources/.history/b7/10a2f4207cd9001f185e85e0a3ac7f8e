@@ -1,0 +1,21 @@
+package OAUTH_2_0;
+
+import org.openqa.selenium.WebDriver;
+
+public class GoogleAuth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Get Code -> using selenium
+		
+		WebDriver driver = new ChromeDriver(); 
+		
+		
+		//Get Access Token
+		
+		//Actual Request
+		
+	}
+
+}

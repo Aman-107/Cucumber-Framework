@@ -1,0 +1,7 @@
+package DummyEStoreAPI;
+
+public class CreateOrder_POJO_Request {
+
+	private Sub_orders_pojo_request orders;
+	
+}

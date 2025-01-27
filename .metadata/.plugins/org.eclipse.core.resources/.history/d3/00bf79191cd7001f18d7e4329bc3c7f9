@@ -1,0 +1,9 @@
+package DummyEStoreAPI;
+
+import java.util.List;
+
+public class CreateOrder_POJO_Request {
+
+	private List<Sub_orders_pojo_request> orders;
+
+}

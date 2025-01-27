@@ -1,0 +1,12 @@
+package DummyEStoreAPI;
+
+public class Login_POJO {
+
+	private String userEmail;
+	private String userPassword;
+	private String token;
+	private String userId;
+	private String message;
+	
+	
+}

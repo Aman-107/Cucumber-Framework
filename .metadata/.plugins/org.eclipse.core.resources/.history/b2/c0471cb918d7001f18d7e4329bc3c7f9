@@ -1,0 +1,9 @@
+package DummyEStoreAPI;
+
+public class Login_POJO {
+
+	private String userEmail;
+	private String userPassword;
+	
+
+}

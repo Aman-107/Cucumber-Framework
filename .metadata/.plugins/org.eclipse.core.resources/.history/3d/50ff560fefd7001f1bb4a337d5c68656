@@ -1,0 +1,22 @@
+package stepDefination;
+
+import java.io.IOException;
+
+import org.junit.Before;
+
+public class Hooks {
+
+	@Before
+	public void deletePlace() throws IOException {
+	
+		stepDefinations sd = new stepDefinations();
+		
+		if(stepDefinations.place_id == null) {
+			
+			sd.add_place_payload_with("Aman", "Bhojpuri", "Bihar");
+			sd.user_calls_with_http_request("DeletePlaceAPI", "POST");
+			sd.verify_place_id_created_maps_to_using("name", "DeletePlaceAPI");
+		}
+		
+	}
+}

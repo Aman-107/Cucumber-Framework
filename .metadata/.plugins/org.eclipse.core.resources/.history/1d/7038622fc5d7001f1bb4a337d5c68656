@@ -1,0 +1,24 @@
+package Resources;
+
+import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.http.ContentType;
+import io.restassured.specification.RequestSpecification;
+
+public class Utils {
+
+	RequestSpecification reqspec;
+	
+	public RequestSpecification requestSpecification() {
+		
+		PrintStrim log = new PrintStream(new FileOutputStream("loggigng.txt"));
+		
+		reqspec = new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com").addQueryParam("key", "qaclick123")
+				.addFilter(RequestLoggingFilter.logRequestTo(null))	
+				.setContentType(ContentType.JSON).build();
+		
+		return reqspec;
+			
+	}
+	
+}

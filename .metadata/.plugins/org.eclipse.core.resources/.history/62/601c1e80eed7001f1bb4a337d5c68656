@@ -1,0 +1,21 @@
+package stepDefination;
+
+import java.io.IOException;
+
+import org.junit.Before;
+
+public class Hooks {
+
+	@Before
+	public void deletePlace() throws IOException {
+	
+		stepDefinations sd = new stepDefinations();
+		
+		if(stepDefinations.place_id == null) {
+			
+			sd.add_place_payload_with("Aman", "Bhojpuri", "Bihar");
+			
+		}
+		
+	}
+}

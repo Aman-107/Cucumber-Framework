@@ -1,0 +1,18 @@
+package Resources;
+
+// enum is special class in java which has collection of constents and methods
+public enum WhenReources {
+	
+	AddPlaceAPI("maps/api/place/add/json"),
+	GetPlaceAPI("maps/api/place/get/json"),
+	DeletePlaceAPI("/maps/api/place/delete/json"),
+	UpdatePlaceAPI("maps/api/place/update/json");
+	
+	
+	
+}
+
+/* Enum points : 
+ * Modify the 'class' with 'enum' keyword i.e. public enum WhenReources{}
+ * 
+ */

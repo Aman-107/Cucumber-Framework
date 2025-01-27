@@ -1,0 +1,8 @@
+package DummyEStoreAPI;
+
+public class Sub_orders_pojo_request {
+
+	private String country;
+	private String productOrderedId;
+		
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber_Framework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Options.TestRunner" time="0.961">
+    <testsuite name="Validating Place API's" time="0.961">
+      <testcase name="Verify if Place is being Successfully added using AddPlaceAPI" classname="Validating Place API's" time="0.961">
+        <error>java.net.MalformedURLException: no protocol: "https://rahulshettyacademy.com"&#13;
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:772)&#13;
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:654)&#13;
+	at java.base/java.net.URL.&lt;init&gt;(URL.java:590)&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)&#13;
+	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)&#13;
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.getTargetURI(RequestSpecificationImpl.groovy:1591)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.this$2$getTargetURI(RequestSpecificationImpl.groovy)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)&#13;
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.partiallyApplyPathParams(RequestSpecificationImpl.groovy:1732)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)&#13;
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.newFilterContext(RequestSpecificationImpl.groovy:1089)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)&#13;
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1702)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)&#13;
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1710)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.this$2$applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:343)&#13;
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:328)&#13;
+	at groovy.lang.MetaClassImpl.doInvokeMethod(MetaClassImpl.java:1333)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1088)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1007)&#13;
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:790)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:46)&#13;
+	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)&#13;
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:49)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:171)&#13;
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy:176)&#13;
+	at io.restassured.internal.RequestSpecificationImpl.post(RequestSpecificationImpl.groovy)&#13;
+	at stepDefination.stepDefinations.user_calls_with_post_http_request(stepDefinations.java:45)&#13;
+	at ✽.user calls "AddPlaceAPI" with post http request(file:///E:/SDET%20Codes%20Ecllipse/Cucumber_Framework/src/test/java/features/placeValidations.feature:5)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

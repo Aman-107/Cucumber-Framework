@@ -1,0 +1,15 @@
+package DummyEStoreAPI;
+
+public class CreateOrder_POJO_Request {
+
+	private List<Sub_orders_pojo_request> orders;
+
+	public Sub_orders_pojo_request getOrders() {
+		return orders;
+	}
+
+	public void setOrders(Sub_orders_pojo_request orders) {
+		this.orders = orders;
+	}
+	
+}

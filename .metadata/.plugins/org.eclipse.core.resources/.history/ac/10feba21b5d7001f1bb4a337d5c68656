@@ -1,0 +1,10 @@
+package Options;
+
+import io.cucumber.junit.CucumberOptions;
+
+@CucumberOptions(features="src//test//java//features//placeValidations.feature" , glue= {"stepDefination"})
+public class TestRunner {
+
+	
+	
+}

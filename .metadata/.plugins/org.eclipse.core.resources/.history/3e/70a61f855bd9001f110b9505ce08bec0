@@ -1,0 +1,30 @@
+package GraphQL;
+
+import static io.restassured.RestAssured.*;
+
+public class Mutation_Query_Intro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// Mutation
+		String response = given()
+		.header("Content-Type","application/json")
+		.body("{\"query\":\"query ($characterId: Int!, $episodeId: Int!) {\\n  character(characterId: $characterId) {\\n    name\\n    gender\\n    status\\n    id\\n  }\\n  location(locationId: 17289) {\\n    name\\n    dimension\\n  }\\n  episode(episodeId: $episodeId) {\\n    id\\n    name\\n    air_date\\n    episode\\n    created\\n  }\\n  characters(filters: {name: \\\"Shadow\\\"}) {\\n    info {\\n      count\\n    }\\n    result {\\n      name\\n      type\\n    }\\n  }\\n  episodes(filters: {episode: \\\"1079\\\"}) {\\n    result {\\n      id\\n      name\\n      air_date\\n      episode\\n    }\\n  }\\n}\\n\",\"variables\":{\"characterId\":11791,\"episodeId\":12435}}")
+		
+		.when()
+		.post("https://rahulshettyacademy.com/gq/graphql")
+		
+		.then()
+		.assertThat().statusCode(200).extract().response().asString();
+		
+		System.out.println(response);
+		
+		// Query 
+		given()
+		.when()
+		.then();
+		
+	}
+
+}

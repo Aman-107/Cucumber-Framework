@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber_Framework" tests="1" started="1" failures="1" errors="0" ignored="0">
+  <testsuite name="Options.TestRunner" time="3.922">
+    <testsuite name="Validating Place API's" time="3.922">
+      <testcase name="Verify if Delete Place functionality is working" classname="Validating Place API's" time="3.922">
+        <failure>java.lang.AssertionError: expected:&lt;404&gt; but was:&lt;200&gt;&#13;
+	at org.junit.Assert.fail(Assert.java:89)&#13;
+	at org.junit.Assert.failNotEquals(Assert.java:835)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:647)&#13;
+	at org.junit.Assert.assertEquals(Assert.java:633)&#13;
+	at stepDefination.stepDefinations.the_api_got_success_with_status_code(stepDefinations.java:65)&#13;
+	at ✽.the API got success with status code 200(file:///E:/SDET%20Codes%20Ecllipse/Cucumber_Framework/src/test/java/features/placeValidations.feature:22)&#13;
+&#13;
+</failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

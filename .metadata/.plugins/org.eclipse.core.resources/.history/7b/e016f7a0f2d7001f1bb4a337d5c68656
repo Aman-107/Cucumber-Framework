@@ -1,0 +1,29 @@
+package Options;
+
+import org.junit.runner.RunWith;
+
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features="src//test//java//features//placeValidations.feature" , glue= {"stepDefination"})
+public class TestRunner {
+
+}
+
+// ,tags= "@DeletePlaceAPI"
+
+/* To run in terminal -> file source -> cmd -> command
+ * 
+ * mvn test 
+ *  will run all the test scenario present in the framework
+ *  
+ * mvn test -Dcucmber.options="--tags @AddPlaceAPI"
+ *  will run specific 'tags' scenario only
+ *  
+ *  Generating reports -> 
+ *  plugin = "json:target/jsonReports/cucmber-report.json"
+ */
+
+
+

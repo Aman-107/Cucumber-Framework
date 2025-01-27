@@ -1,0 +1,9 @@
+package stepDefination;
+
+public class Hooks {
+
+	@Before
+	public void deletePlace() {
+	
+	}
+}

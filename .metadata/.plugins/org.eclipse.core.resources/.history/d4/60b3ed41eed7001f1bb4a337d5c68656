@@ -1,0 +1,19 @@
+package stepDefination;
+
+import org.junit.Before;
+
+public class Hooks {
+
+	@Before
+	public void deletePlace() {
+	
+		stepDefinations sd = new stepDefinations();
+		
+		if(stepDefinations.place_id == null) {
+			
+			sd.add_place_payload_with("Aman", "Bhojpuri", "Bihar");
+			
+		}
+		
+	}
+}

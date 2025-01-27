@@ -1,0 +1,11 @@
+package DummyEStoreAPI;
+
+import java.util.List;
+
+public class CreateOrder_POJO {
+	
+		private List<String> orders;
+		private List<String> productOrderId;
+		private String message;
+	
+}

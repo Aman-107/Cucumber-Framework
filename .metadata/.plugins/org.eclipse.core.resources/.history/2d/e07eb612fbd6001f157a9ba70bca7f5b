@@ -1,0 +1,8 @@
+package POJO_Serialise;
+
+public class Locations {
+
+	private String lat;
+	private String lng;
+	
+}

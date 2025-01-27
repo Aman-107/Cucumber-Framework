@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber_Framework" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="Options.TestRunner" time="0.098">
+    <testsuite name="Validating Place API's" time="0.098">
+      <testcase name="Verify if Place is being Successfully added using AddPlaceAPI #1" classname="Validating Place API's" time="0.093">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Add Place Payload with "Abdul","Urdu","Pakistan"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("Add Place Payload with {string},{string},{string}")
+public void add_place_payload_with(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Verify if Place is being Successfully added using AddPlaceAPI #2" classname="Validating Place API's" time="0.004">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'Add Place Payload with "Sheikh","Islamic","Dubai"' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("Add Place Payload with {string},{string},{string}")
+public void add_place_payload_with(String string, String string2, String string3) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,27 @@
+package OAUTH_2_0;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class GoogleAuth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// Get Code -> using selenium
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--incognito");
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://accounts.google.com/v3/signin/identifier?opparams=%253Fauth_url%253Dhttps%25253A%25252F%25252Faccounts.google.com%25252Fo%25252Foauth2%25252Fv2%25252Fauth&dsh=S-66436600%3A1737631021089476&client_id=692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com&ddm=1&o2v=2&redirect_uri=https%3A%2F%2Frahulshettyacademy.com%2FgetCourse.php&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&service=lso&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANyLu6ilvcK_UtMrhvvkJ7pHx-c6NSP9d6MZorKD_LFNenI6fpur96woaKNlutrtFI7p4S4ftQdPaVC2y4GlTCq9LeFpB_dAcQh7VD5FpGGnju_MWVp3d2-zIWpYJ_SfBsnzaAz6HWs4w2ynySup8xugqINUk5pDvbrDNEK-_i-BV-M0gPLI_LBHOTQYVx3Zr4vHczym4Pgc11uV-SSSiIJAGKaTs4ypSxLZaQnq4TFdCi2JwITCsk4na6WeK0Q51lKkpfuC1htlB6TzwZ6fXvBs0I1hGqCHuo3sFjfTYb0v0OPxKmeO9J0TOeyy7vIUb696dgZ9El1qy9fhPyEIOw8d5vzSV1jZgfHa0Mg0iocqfUUNIn-sxPm0_ubxa0ritEPf9OV1di4tGZp9ZTwVY_2g5kYzrxejWPxMjc8_9ESJb5LEmFtmZg3NbXYWWsr4TXMW2IQw8OfQteMynK0KZvVVKVweA%26flowName%3DGeneralOAuthFlow%26as%3DS-66436600%253A1737631021089476%26client_id%3D692183103107-p0m7ent2hk7suguv4vq22hjcfhcr43pj.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Frahulshettyacademy.com&rart=ANgoxceEUJFBn7iizSLeAbzShw6VujGR_AWCXC4m9rwuIu62oafQF0yo1JJHjdmsJU61tnUZo-v4x3T6geDS2KPCrCLrl1z5kJxXbbgDcZbTDi3kR7jOZmk");
+		
+		
+		
+		//Get Access Token
+		
+		//Actual Request
+		
+	}
+
+}

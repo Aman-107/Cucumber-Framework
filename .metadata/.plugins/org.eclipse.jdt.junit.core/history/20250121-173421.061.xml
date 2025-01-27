@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="Cucumber_Framework" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="Options.TestRunner" time="2.464">
+    <testsuite name="Validating Place API's" time="2.464">
+      <testcase name="Verify if Delete Place functionality is working" classname="Validating Place API's" time="2.464">
+        <error>java.lang.IllegalArgumentException: No enum constant Resources.WhenReources.POST&#13;
+	at java.base/java.lang.Enum.valueOf(Enum.java:293)&#13;
+	at Resources.WhenReources.valueOf(WhenReources.java:1)&#13;
+	at stepDefination.stepDefinations.user_calls_with_http_request(stepDefinations.java:48)&#13;
+	at stepDefination.stepDefinations.verify_place_id_created_maps_to_using(stepDefinations.java:82)&#13;
+	at stepDefination.Hooks.deletePlace(Hooks.java:19)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
